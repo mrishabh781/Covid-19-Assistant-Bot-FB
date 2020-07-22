@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rishabh/fb_bot/model.tflearn"
+all_model_checkpoint_paths: "/home/rishabh/fb_bot/model.tflearn"
