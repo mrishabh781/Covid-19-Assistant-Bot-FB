@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 FB_API_URL = 'https://graph.facebook.com/v6.0/me/messages?access_token=<PAGE_ACCESS_TOKEN>'
 VERIFY_TOKEN = 'rishabh121'
-PAGE_ACCESS_TOKEN = "EAAOZCxvnChZCEBACRgEW8QA5YJoEBMFtkUjhZAZCUbfpHr6FzlRvQ52s0wmm65uU18d5oh63ZB8Tm5LIr8SJLdbZAWXU8RaBoAlvHjKZCpubaOHM5fQZBXZCz5mq3XSvNZAKD3rlNMFfOCANXOpvHSFeu1Wd3jFJOO1IIELRrgFVb4I0DsgbR3pu2M9iNSgPxkFyQZD"
+PAGE_ACCESS_TOKEN = "your access code"
 def get_stats():
     page = requests.get('https://www.worldometers.info/coronavirus/')
     soup = BeautifulSoup(page.content, 'html.parser')
